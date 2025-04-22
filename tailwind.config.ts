@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,21 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Chinese-inspired color palette
+				china: {
+					red: '#C41E3A', // Chinese red
+					gold: '#FFD700',
+					black: '#111111',
+					white: '#FFFAF0', // Floral white
+					jade: '#00A86B',
+					ink: '#2C3539' // Dark charcoal
 				}
+			},
+			fontFamily: {
+				sans: ['Noto Sans', 'sans-serif'],
+				serif: ['Noto Serif', 'serif'],
+				chinese: ['"Noto Sans SC"', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +99,26 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				fadeIn: {
+					'0%': { opacity: '0' },
+					'100%': { opacity: '1' }
+				},
+				fadeOut: {
+					'0%': { opacity: '1' },
+					'100%': { opacity: '0' }
+				},
+				slideIn: {
+					'0%': { transform: 'translateY(10px)', opacity: '0' },
+					'100%': { transform: 'translateY(0)', opacity: '1' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				fadeIn: 'fadeIn 0.5s ease-in-out',
+				fadeOut: 'fadeOut 0.5s ease-in-out',
+				slideIn: 'slideIn 0.5s ease-out'
 			}
 		}
 	},
