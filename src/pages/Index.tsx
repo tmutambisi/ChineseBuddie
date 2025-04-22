@@ -1,6 +1,10 @@
-
 import React from 'react';
-import { CircleDigit1, CircleDigit2, CircleDigit3, CircleDigit4 } from 'lucide-react';
+import { 
+  CircleOne, 
+  CircleTwo, 
+  CircleThree, 
+  CircleFour 
+} from 'lucide-react';
 import Header from '@/components/Header';
 import BottomNavigation from '@/components/BottomNavigation';
 import LevelCard from '@/components/LevelCard';
@@ -19,28 +23,28 @@ const Index = () => {
       title: 'Absolute Beginner',
       description: 'Start your journey with basic phrases and characters',
       color: 'bg-china-red text-white',
-      icon: <CircleDigit1 />,
+      icon: <CircleOne />,
     },
     {
       level: 'beginner',
       title: 'Beginner',
       description: 'Build your vocabulary and simple conversations',
       color: 'bg-china-gold text-china-black',
-      icon: <CircleDigit2 />,
+      icon: <CircleTwo />,
     },
     {
       level: 'intermediate',
       title: 'Intermediate',
       description: 'Expand your skills with more complex sentences',
       color: 'bg-china-jade text-white',
-      icon: <CircleDigit3 />,
+      icon: <CircleThree />,
     },
     {
       level: 'advanced',
       title: 'Advanced',
       description: 'Master idioms and cultural expressions',
       color: 'bg-china-ink text-white',
-      icon: <CircleDigit4 />,
+      icon: <CircleFour />,
     },
   ];
 
