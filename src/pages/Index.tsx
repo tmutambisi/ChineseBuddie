@@ -1,9 +1,10 @@
+
 import React from 'react';
 import { 
-  CircleOne, 
-  CircleTwo, 
-  CircleThree, 
-  CircleFour 
+  Circle as CircleOne, 
+  Circle as CircleTwo, 
+  Circle as CircleThree, 
+  Circle as CircleFour 
 } from 'lucide-react';
 import Header from '@/components/Header';
 import BottomNavigation from '@/components/BottomNavigation';
