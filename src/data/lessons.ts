@@ -334,6 +334,201 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    id: 'b-daily-routine',
+    title: 'Daily Activities',
+    description: 'Learn how to describe your daily routine',
+    level: 'beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '起床',
+        pinyin: 'qǐ chuáng',
+        english: 'wake up/get up',
+        example: {
+          chinese: '我每天六点起床。',
+          pinyin: 'wǒ měi tiān liù diǎn qǐ chuáng.',
+          english: 'I get up at 6 o\'clock every day.',
+        },
+      },
+      {
+        chinese: '刷牙',
+        pinyin: 'shuā yá',
+        english: 'brush teeth',
+        example: {
+          chinese: '早上要刷牙。',
+          pinyin: 'zǎo shang yào shuā yá.',
+          english: 'You should brush your teeth in the morning.',
+        },
+      },
+      {
+        chinese: '吃早饭',
+        pinyin: 'chī zǎo fàn',
+        english: 'eat breakfast',
+        example: {
+          chinese: '我喜欢吃早饭。',
+          pinyin: 'wǒ xǐ huān chī zǎo fàn.',
+          english: 'I like eating breakfast.',
+        },
+      }
+    ],
+  },
+  {
+    id: 'b-transportation',
+    title: 'Transportation',
+    description: 'Learn words related to getting around',
+    level: 'beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '公共汽车',
+        pinyin: 'gōng gòng qì chē',
+        english: 'bus',
+        example: {
+          chinese: '我每天坐公共汽车去上班。',
+          pinyin: 'wǒ měi tiān zuò gōng gòng qì chē qù shàng bān.',
+          english: 'I take the bus to work every day.',
+        },
+      },
+      {
+        chinese: '地铁',
+        pinyin: 'dì tiě',
+        english: 'subway/metro',
+        example: {
+          chinese: '地铁很快。',
+          pinyin: 'dì tiě hěn kuài.',
+          english: 'The subway is very fast.',
+        },
+      },
+      {
+        chinese: '出租车',
+        pinyin: 'chū zū chē',
+        english: 'taxi',
+        example: {
+          chinese: '我们打出租车去机场。',
+          pinyin: 'wǒ men dǎ chū zū chē qù jī chǎng.',
+          english: 'We\'re taking a taxi to the airport.',
+        },
+      }
+    ],
+  },
+  {
+    id: 'b-weather',
+    title: 'Weather and Seasons',
+    description: 'Learn to talk about weather and seasons',
+    level: 'beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '下雨',
+        pinyin: 'xià yǔ',
+        english: 'rain (verb)',
+        example: {
+          chinese: '今天下雨了。',
+          pinyin: 'jīn tiān xià yǔ le.',
+          english: 'It\'s raining today.',
+        },
+      },
+      {
+        chinese: '天气',
+        pinyin: 'tiān qì',
+        english: 'weather',
+        example: {
+          chinese: '今天天气很好。',
+          pinyin: 'jīn tiān tiān qì hěn hǎo.',
+          english: 'The weather is nice today.',
+        },
+      },
+      {
+        chinese: '春天',
+        pinyin: 'chūn tiān',
+        english: 'spring',
+        example: {
+          chinese: '春天的花很漂亮。',
+          pinyin: 'chūn tiān de huā hěn piào liang.',
+          english: 'Spring flowers are beautiful.',
+        },
+      }
+    ],
+  },
+  {
+    id: 'b-shopping',
+    title: 'Shopping Basics',
+    description: 'Learn essential shopping vocabulary',
+    level: 'beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '多少钱',
+        pinyin: 'duō shao qián',
+        english: 'how much (money)',
+        example: {
+          chinese: '这个苹果多少钱？',
+          pinyin: 'zhè gè píng guǒ duō shao qián?',
+          english: 'How much is this apple?',
+        },
+      },
+      {
+        chinese: '便宜',
+        pinyin: 'pián yi',
+        english: 'cheap',
+        example: {
+          chinese: '这个很便宜。',
+          pinyin: 'zhè gè hěn pián yi.',
+          english: 'This is very cheap.',
+        },
+      },
+      {
+        chinese: '贵',
+        pinyin: 'guì',
+        english: 'expensive',
+        example: {
+          chinese: '这家商店太贵了。',
+          pinyin: 'zhè jiā shāng diàn tài guì le.',
+          english: 'This store is too expensive.',
+        },
+      }
+    ],
+  },
+  {
+    id: 'b-hobbies',
+    title: 'Hobbies and Interests',
+    description: 'Learn to talk about different hobbies',
+    level: 'beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '看书',
+        pinyin: 'kàn shū',
+        english: 'read books',
+        example: {
+          chinese: '我喜欢看书。',
+          pinyin: 'wǒ xǐ huān kàn shū.',
+          english: 'I like reading books.',
+        },
+      },
+      {
+        chinese: '游泳',
+        pinyin: 'yóu yǒng',
+        english: 'swim',
+        example: {
+          chinese: '夏天我常去游泳。',
+          pinyin: 'xià tiān wǒ cháng qù yóu yǒng.',
+          english: 'I often go swimming in summer.',
+        },
+      },
+      {
+        chinese: '跑步',
+        pinyin: 'pǎo bù',
+        english: 'run/jogging',
+        example: {
+          chinese: '我每天早上跑步。',
+          pinyin: 'wǒ měi tiān zǎo shang pǎo bù.',
+          english: 'I go running every morning.',
+        },
+      }
+    ],
+  },
   // Intermediate Lessons
   {
     id: 'i-weather',
