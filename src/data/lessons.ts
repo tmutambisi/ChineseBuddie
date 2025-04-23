@@ -725,7 +725,6 @@ export const lessons: Lesson[] = [
       },
     ],
   },
-
   // Advanced Lessons
   {
     id: 'a-idioms',
@@ -754,8 +753,174 @@ export const lessons: Lesson[] = [
           english: 'In China, you should do as the locals do and try to eat with chopsticks.',
         },
       },
+      {
+        chinese: '守株待兔',
+        pinyin: 'shǒu zhū dài tù',
+        english: 'to wait for opportunities without making efforts',
+        example: {
+          chinese: '不要守株待兔，要主动寻找机会。',
+          pinyin: 'bú yào shǒu zhū dài tù, yào zhǔ dòng xún zhǎo jī huì.',
+          english: 'Don\'t wait passively for opportunities, actively seek them.',
+        },
+      },
+      {
+        chinese: '画蛇添足',
+        pinyin: 'huà shé tiān zú',
+        english: 'to ruin something by adding unnecessary details',
+        example: {
+          chinese: '这些装饰太多了，有点画蛇添足。',
+          pinyin: 'zhè xiē zhuāng shì tài duō le, yǒu diǎn huà shé tiān zú.',
+          english: 'These decorations are too much, it\'s like adding legs to a snake.',
+        },
+      },
     ],
   },
+  {
+    id: 'a-business',
+    title: 'Business Chinese',
+    description: 'Professional vocabulary for business settings',
+    level: 'advanced',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '谈判',
+        pinyin: 'tán pàn',
+        english: 'negotiation',
+        example: {
+          chinese: '这次谈判对公司很重要。',
+          pinyin: 'zhè cì tán pàn duì gōng sī hěn zhòng yào.',
+          english: 'This negotiation is very important for the company.',
+        },
+      },
+      {
+        chinese: '投资',
+        pinyin: 'tóu zī',
+        english: 'investment',
+        example: {
+          chinese: '我们需要寻找新的投资机会。',
+          pinyin: 'wǒ men xū yào xún zhǎo xīn de tóu zī jī huì.',
+          english: 'We need to look for new investment opportunities.',
+        },
+      },
+      {
+        chinese: '股东',
+        pinyin: 'gǔ dōng',
+        english: 'shareholder',
+        example: {
+          chinese: '下周有股东大会。',
+          pinyin: 'xià zhōu yǒu gǔ dōng dà huì.',
+          english: 'There\'s a shareholders\' meeting next week.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'a-literature',
+    title: 'Literary Chinese',
+    description: 'Classical and literary expressions',
+    level: 'advanced',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '风花雪月',
+        pinyin: 'fēng huā xuě yuè',
+        english: 'beautiful scenes of nature; romance',
+        example: {
+          chinese: '这首诗写的都是风花雪月。',
+          pinyin: 'zhè shǒu shī xiě de dōu shì fēng huā xuě yuè.',
+          english: 'This poem is all about romantic natural scenery.',
+        },
+      },
+      {
+        chinese: '青山绿水',
+        pinyin: 'qīng shān lǜ shuǐ',
+        english: 'beautiful mountains and rivers',
+        example: {
+          chinese: '这里的青山绿水真是美极了。',
+          pinyin: 'zhè lǐ de qīng shān lǜ shuǐ zhēn shi měi jí le.',
+          english: 'The mountains and waters here are incredibly beautiful.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'a-technology',
+    title: 'Technology Terms',
+    description: 'Modern technology and digital vocabulary',
+    level: 'advanced',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '人工智能',
+        pinyin: 'rén gōng zhì néng',
+        english: 'artificial intelligence',
+        example: {
+          chinese: '人工智能技术正在快速发展。',
+          pinyin: 'rén gōng zhì néng jì shù zhèng zài kuài sù fā zhǎn.',
+          english: 'Artificial intelligence technology is developing rapidly.',
+        },
+      },
+      {
+        chinese: '区块链',
+        pinyin: 'qū kuài liàn',
+        english: 'blockchain',
+        example: {
+          chinese: '区块链技术改变了金融行业。',
+          pinyin: 'qū kuài liàn jì shù gǎi biàn le jīn róng háng yè.',
+          english: 'Blockchain technology has transformed the financial industry.',
+        },
+      },
+      {
+        chinese: '云计算',
+        pinyin: 'yún jì suàn',
+        english: 'cloud computing',
+        example: {
+          chinese: '很多公司都在使用云计算服务。',
+          pinyin: 'hěn duō gōng sī dōu zài shǐ yòng yún jì suàn fú wù.',
+          english: 'Many companies are using cloud computing services.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'a-academic',
+    title: 'Academic Chinese',
+    description: 'Vocabulary for academic and research contexts',
+    level: 'advanced',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '论文',
+        pinyin: 'lùn wén',
+        english: 'thesis/dissertation',
+        example: {
+          chinese: '我正在写博士论文。',
+          pinyin: 'wǒ zhèng zài xiě bó shì lùn wén.',
+          english: 'I am writing my doctoral dissertation.',
+        },
+      },
+      {
+        chinese: '研究方法',
+        pinyin: 'yán jiū fāng fǎ',
+        english: 'research methodology',
+        example: {
+          chinese: '这个研究方法很创新。',
+          pinyin: 'zhè gè yán jiū fāng fǎ hěn chuàng xīn.',
+          english: 'This research methodology is very innovative.',
+        },
+      },
+      {
+        chinese: '分析',
+        pinyin: 'fēn xī',
+        english: 'analysis',
+        example: {
+          chinese: '数据分析显示了有趣的结果。',
+          pinyin: 'shù jù fēn xī xiǎn shì le yǒu qù de jié guǒ.',
+          english: 'The data analysis showed interesting results.',
+        },
+      },
+    ],
+  }
 ];
 
 export const getLessonsByLevel = (level: string) => {
