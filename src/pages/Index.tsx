@@ -55,7 +55,7 @@ const Index = () => {
       
       <main className="flex-1 container px-4 py-6 pb-24">
         <div className="mb-8">
-          <h1 className="text-3xl font-bold mb-2">Welcome to Mandarin Journey</h1>
+          <h1 className="text-3xl font-bold mb-2">Welcome to ChineseBuddie</h1>
           <p className="text-gray-600 dark:text-gray-400">
             Start your adventure learning Chinese!
           </p>

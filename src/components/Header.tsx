@@ -12,7 +12,7 @@ interface HeaderProps {
 }
 
 const Header: React.FC<HeaderProps> = ({ 
-  title = '普通话 Journey', 
+  title = 'ChineseBuddie', 
   showBack = false,
   showSettings = true
 }) => {
