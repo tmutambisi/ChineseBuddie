@@ -569,6 +569,163 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    id: 'i-restaurant',
+    title: 'Restaurant Dining',
+    description: 'Learn vocabulary for dining out',
+    level: 'intermediate',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '点菜',
+        pinyin: 'diǎn cài',
+        english: 'to order food',
+        example: {
+          chinese: '我们可以开始点菜了吗？',
+          pinyin: 'wǒ men kě yǐ kāi shǐ diǎn cài le ma?',
+          english: 'Can we start ordering food?',
+        },
+      },
+      {
+        chinese: '服务员',
+        pinyin: 'fú wù yuán',
+        english: 'waiter/waitress',
+        example: {
+          chinese: '服务员，请给我菜单。',
+          pinyin: 'fú wù yuán, qǐng gěi wǒ cài dān.',
+          english: 'Waiter, please give me the menu.',
+        },
+      },
+      {
+        chinese: '结账',
+        pinyin: 'jié zhàng',
+        english: 'to pay the bill',
+        example: {
+          chinese: '我们想结账。',
+          pinyin: 'wǒ men xiǎng jié zhàng.',
+          english: 'We would like to pay the bill.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'i-office',
+    title: 'Office Life',
+    description: 'Common vocabulary used in the workplace',
+    level: 'intermediate',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '会议',
+        pinyin: 'huì yì',
+        english: 'meeting',
+        example: {
+          chinese: '下午三点有个重要会议。',
+          pinyin: 'xià wǔ sān diǎn yǒu gè zhòng yào huì yì.',
+          english: 'There is an important meeting at 3 PM.',
+        },
+      },
+      {
+        chinese: '同事',
+        pinyin: 'tóng shì',
+        english: 'colleague',
+        example: {
+          chinese: '我的同事都很友好。',
+          pinyin: 'wǒ de tóng shì dōu hěn yǒu hǎo.',
+          english: 'My colleagues are all very friendly.',
+        },
+      },
+      {
+        chinese: '报告',
+        pinyin: 'bào gào',
+        english: 'report',
+        example: {
+          chinese: '我需要写一份报告。',
+          pinyin: 'wǒ xū yào xiě yī fèn bào gào.',
+          english: 'I need to write a report.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'i-emotions',
+    title: 'Emotions and Feelings',
+    description: 'Express different emotions in Chinese',
+    level: 'intermediate',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '紧张',
+        pinyin: 'jǐn zhāng',
+        english: 'nervous',
+        example: {
+          chinese: '考试前我很紧张。',
+          pinyin: 'kǎo shì qián wǒ hěn jǐn zhāng.',
+          english: 'I am nervous before the exam.',
+        },
+      },
+      {
+        chinese: '兴奋',
+        pinyin: 'xīng fèn',
+        english: 'excited',
+        example: {
+          chinese: '我对这次旅行很兴奋。',
+          pinyin: 'wǒ duì zhè cì lǚ xíng hěn xīng fèn.',
+          english: 'I am excited about this trip.',
+        },
+      },
+      {
+        chinese: '失望',
+        pinyin: 'shī wàng',
+        english: 'disappointed',
+        example: {
+          chinese: '听到这个消息我很失望。',
+          pinyin: 'tīng dào zhè gè xiāo xi wǒ hěn shī wàng.',
+          english: 'I am disappointed to hear this news.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'i-health',
+    title: 'Health and Wellness',
+    description: 'Vocabulary for discussing health issues',
+    level: 'intermediate',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '头痛',
+        pinyin: 'tóu tòng',
+        english: 'headache',
+        example: {
+          chinese: '我今天头痛，需要休息。',
+          pinyin: 'wǒ jīn tiān tóu tòng, xū yào xiū xi.',
+          english: 'I have a headache today, need to rest.',
+        },
+      },
+      {
+        chinese: '感冒',
+        pinyin: 'gǎn mào',
+        english: 'cold (illness)',
+        example: {
+          chinese: '我感冒了，要去看医生。',
+          pinyin: 'wǒ gǎn mào le, yào qù kàn yī shēng.',
+          english: 'I caught a cold, need to see a doctor.',
+        },
+      },
+      {
+        chinese: '锻炼',
+        pinyin: 'duàn liàn',
+        english: 'exercise',
+        example: {
+          chinese: '每天锻炼对身体好。',
+          pinyin: 'měi tiān duàn liàn duì shēn tǐ hǎo.',
+          english: 'Daily exercise is good for health.',
+        },
+      },
+    ],
+  },
+
   // Advanced Lessons
   {
     id: 'a-idioms',
