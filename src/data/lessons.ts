@@ -1,4 +1,3 @@
-
 export interface ChineseWord {
   chinese: string;
   pinyin: string;
@@ -71,6 +70,84 @@ export const lessons: Lesson[] = [
     ],
   },
   {
+    id: 'ab-family-basic',
+    title: 'Basic Family Members',
+    description: 'Learn the most common family words',
+    level: 'absolute-beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '妈妈',
+        pinyin: 'mā ma',
+        english: 'mom',
+        example: {
+          chinese: '我妈妈做饭很好吃。',
+          pinyin: 'wǒ mā ma zuò fàn hěn hǎo chī.',
+          english: 'My mom cooks delicious food.',
+        },
+      },
+      {
+        chinese: '爸爸',
+        pinyin: 'bà ba',
+        english: 'dad',
+        example: {
+          chinese: '我爸爸在公园跑步。',
+          pinyin: 'wǒ bà ba zài gōng yuán pǎo bù.',
+          english: 'My dad is running in the park.',
+        },
+      },
+      {
+        chinese: '妹妹',
+        pinyin: 'mèi mei',
+        english: 'younger sister',
+        example: {
+          chinese: '这是我妹妹。',
+          pinyin: 'zhè shì wǒ mèi mei.',
+          english: 'This is my younger sister.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'ab-numbers-basic',
+    title: 'Numbers 1-10',
+    description: 'Learn to count in Chinese',
+    level: 'absolute-beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '一',
+        pinyin: 'yī',
+        english: 'one',
+        example: {
+          chinese: '我要一个苹果。',
+          pinyin: 'wǒ yào yī gè píng guǒ.',
+          english: 'I want one apple.',
+        },
+      },
+      {
+        chinese: '二',
+        pinyin: 'èr',
+        english: 'two',
+        example: {
+          chinese: '我有二个兄弟。',
+          pinyin: 'wǒ yǒu èr gè xiōng dì.',
+          english: 'I have two brothers.',
+        },
+      },
+      {
+        chinese: '三',
+        pinyin: 'sān',
+        english: 'three',
+        example: {
+          chinese: '三个朋友。',
+          pinyin: 'sān gè péng you.',
+          english: 'Three friends.',
+        },
+      },
+    ],
+  },
+  {
     id: 'ab-numbers',
     title: 'Numbers 1-10',
     description: 'Learn to count from 1 to 10 in Chinese',
@@ -125,6 +202,84 @@ export const lessons: Lesson[] = [
           chinese: '我家有五口人。',
           pinyin: 'wǒ jiā yǒu wǔ kǒu rén.',
           english: 'There are five people in my family.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'ab-colors',
+    title: 'Basic Colors',
+    description: 'Learn common colors in Chinese',
+    level: 'absolute-beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '红色',
+        pinyin: 'hóng sè',
+        english: 'red',
+        example: {
+          chinese: '我喜欢红色。',
+          pinyin: 'wǒ xǐ huān hóng sè.',
+          english: 'I like red.',
+        },
+      },
+      {
+        chinese: '蓝色',
+        pinyin: 'lán sè',
+        english: 'blue',
+        example: {
+          chinese: '天空是蓝色的。',
+          pinyin: 'tiān kōng shì lán sè de.',
+          english: 'The sky is blue.',
+        },
+      },
+      {
+        chinese: '黄色',
+        pinyin: 'huáng sè',
+        english: 'yellow',
+        example: {
+          chinese: '香蕉是黄色的。',
+          pinyin: 'xiāng jiāo shì huáng sè de.',
+          english: 'Bananas are yellow.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'ab-food',
+    title: 'Common Foods',
+    description: 'Learn basic food vocabulary',
+    level: 'absolute-beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '米饭',
+        pinyin: 'mǐ fàn',
+        english: 'rice',
+        example: {
+          chinese: '我爱吃米饭。',
+          pinyin: 'wǒ ài chī mǐ fàn.',
+          english: 'I love eating rice.',
+        },
+      },
+      {
+        chinese: '面条',
+        pinyin: 'miàn tiáo',
+        english: 'noodles',
+        example: {
+          chinese: '这个面条很好吃。',
+          pinyin: 'zhè gè miàn tiáo hěn hǎo chī.',
+          english: 'These noodles are delicious.',
+        },
+      },
+      {
+        chinese: '水果',
+        pinyin: 'shuǐ guǒ',
+        english: 'fruit',
+        example: {
+          chinese: '我每天吃水果。',
+          pinyin: 'wǒ měi tiān chī shuǐ guǒ.',
+          english: 'I eat fruit every day.',
         },
       },
     ],
