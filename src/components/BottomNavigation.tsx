@@ -2,10 +2,14 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Home, Book, LayoutGrid, Award } from 'lucide-react';
+import { useIsMobile } from '@/hooks/use-mobile';
 
 const BottomNavigation: React.FC = () => {
+  const isMobile = useIsMobile();
+  
   return (
-    <nav className="bottom-nav flex justify-around items-center">
+    <nav className="bottom-nav flex justify-around items-center" 
+         style={isMobile ? { paddingBottom: 'env(safe-area-inset-bottom)' } : {}}>
       <NavLink 
         to="/" 
         className={({ isActive }) => 
