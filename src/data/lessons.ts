@@ -284,6 +284,264 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  // Additional Absolute Beginner Lessons
+  {
+    id: 'ab-time',
+    title: 'Telling Time',
+    description: 'Learn how to tell time in Chinese',
+    level: 'absolute-beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '点',
+        pinyin: 'diǎn',
+        english: "o'clock",
+        example: {
+          chinese: '现在三点。',
+          pinyin: 'xiàn zài sān diǎn.',
+          english: "It's three o'clock.",
+        },
+      },
+      {
+        chinese: '分钟',
+        pinyin: 'fēn zhōng',
+        english: 'minute',
+        example: {
+          chinese: '十分钟',
+          pinyin: 'shí fēn zhōng',
+          english: 'ten minutes',
+        },
+      },
+    ],
+  },
+  {
+    id: 'ab-fruits',
+    title: 'Common Fruits',
+    description: 'Learn names of common fruits',
+    level: 'absolute-beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '苹果',
+        pinyin: 'píng guǒ',
+        english: 'apple',
+        example: {
+          chinese: '我喜欢吃苹果。',
+          pinyin: 'wǒ xǐ huān chī píng guǒ.',
+          english: 'I like eating apples.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'ab-drinks',
+    title: 'Common Drinks',
+    description: 'Learn how to order drinks',
+    level: 'absolute-beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '水',
+        pinyin: 'shuǐ',
+        english: 'water',
+        example: {
+          chinese: '我要喝水。',
+          pinyin: 'wǒ yào hē shuǐ.',
+          english: 'I want to drink water.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'ab-animals',
+    title: 'Common Animals',
+    description: 'Learn names of common animals',
+    level: 'absolute-beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '猫',
+        pinyin: 'māo',
+        english: 'cat',
+        example: {
+          chinese: '这是我的猫。',
+          pinyin: 'zhè shì wǒ de māo.',
+          english: 'This is my cat.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'ab-classroom',
+    title: 'Classroom Objects',
+    description: 'Learn words for items in a classroom',
+    level: 'absolute-beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '书',
+        pinyin: 'shū',
+        english: 'book',
+        example: {
+          chinese: '这是中文书。',
+          pinyin: 'zhè shì zhōng wén shū.',
+          english: 'This is a Chinese book.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'ab-weather-basic',
+    title: 'Basic Weather Terms',
+    description: 'Learn basic weather expressions',
+    level: 'absolute-beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '热',
+        pinyin: 'rè',
+        english: 'hot',
+        example: {
+          chinese: '今天很热。',
+          pinyin: 'jīn tiān hěn rè.',
+          english: "It's hot today.",
+        },
+      },
+    ],
+  },
+  {
+    id: 'ab-directions',
+    title: 'Basic Directions',
+    description: 'Learn basic directional words',
+    level: 'absolute-beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '左',
+        pinyin: 'zuǒ',
+        english: 'left',
+        example: {
+          chinese: '向左转。',
+          pinyin: 'xiàng zuǒ zhuǎn.',
+          english: 'Turn left.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'ab-body',
+    title: 'Body Parts',
+    description: 'Learn basic body part names',
+    level: 'absolute-beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '头',
+        pinyin: 'tóu',
+        english: 'head',
+        example: {
+          chinese: '我头疼。',
+          pinyin: 'wǒ tóu téng.',
+          english: 'I have a headache.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'ab-days',
+    title: 'Days of the Week',
+    description: 'Learn the days of the week',
+    level: 'absolute-beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '星期一',
+        pinyin: 'xīng qī yī',
+        english: 'Monday',
+        example: {
+          chinese: '星期一上班。',
+          pinyin: 'xīng qī yī shàng bān.',
+          english: 'Work on Monday.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'ab-months',
+    title: 'Months of the Year',
+    description: 'Learn the months of the year',
+    level: 'absolute-beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '一月',
+        pinyin: 'yī yuè',
+        english: 'January',
+        example: {
+          chinese: '一月很冷。',
+          pinyin: 'yī yuè hěn lěng.',
+          english: 'January is cold.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'ab-seasons',
+    title: 'Seasons',
+    description: 'Learn the four seasons',
+    level: 'absolute-beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '春天',
+        pinyin: 'chūn tiān',
+        english: 'Spring',
+        example: {
+          chinese: '我喜欢春天。',
+          pinyin: 'wǒ xǐ huān chūn tiān.',
+          english: 'I like Spring.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'ab-hobbies-basic',
+    title: 'Basic Hobbies',
+    description: 'Learn names of common hobbies',
+    level: 'absolute-beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '唱歌',
+        pinyin: 'chàng gē',
+        english: 'Singing',
+        example: {
+          chinese: '我喜欢唱歌。',
+          pinyin: 'wǒ xǐ huān chàng gē.',
+          english: 'I like singing.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'ab-places',
+    title: 'Common Places',
+    description: 'Learn names of common places',
+    level: 'absolute-beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '家',
+        pinyin: 'jiā',
+        english: 'Home',
+        example: {
+          chinese: '我在家。',
+          pinyin: 'wǒ zài jiā.',
+          english: 'I am at home.',
+        },
+      },
+    ],
+  },
   // Beginner Lessons
   {
     id: 'b-family',
@@ -529,6 +787,254 @@ export const lessons: Lesson[] = [
       }
     ],
   },
+  // Additional Beginner Lessons
+  {
+    id: 'b-shopping-phrases',
+    title: 'Shopping Phrases',
+    description: 'Learn useful phrases for shopping',
+    level: 'beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '打折',
+        pinyin: 'dǎ zhé',
+        english: 'discount',
+        example: {
+          chinese: '这件衣服在打折。',
+          pinyin: 'zhè jiàn yī fu zài dǎ zhé.',
+          english: 'This clothing item is on discount.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'b-restaurant-phrases',
+    title: 'Restaurant Phrases',
+    description: 'Learn how to order in restaurants',
+    level: 'beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '点菜',
+        pinyin: 'diǎn cài',
+        english: 'to order food',
+        example: {
+          chinese: '我们可以点菜了吗？',
+          pinyin: 'wǒ men kě yǐ diǎn cài le ma?',
+          english: 'Can we order now?',
+        },
+      },
+    ],
+  },
+  {
+    id: 'b-transportation-vocab',
+    title: 'Transportation Vocabulary',
+    description: 'Learn words related to transportation',
+    level: 'beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '地铁站',
+        pinyin: 'dì tiě zhàn',
+        english: 'subway station',
+        example: {
+          chinese: '地铁站在哪里？',
+          pinyin: 'dì tiě zhàn zài nǎ lǐ?',
+          english: 'Where is the subway station?',
+        },
+      },
+    ],
+  },
+  {
+    id: 'b-accommodation',
+    title: 'Accommodation',
+    description: 'Learn words related to accommodation',
+    level: 'beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '酒店',
+        pinyin: 'jiǔ diàn',
+        english: 'hotel',
+        example: {
+          chinese: '我住在酒店。',
+          pinyin: 'wǒ zhù zài jiǔ diàn.',
+          english: 'I live in a hotel.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'b-directions-basic',
+    title: 'Basic Directions',
+    description: 'Learn how to give directions',
+    level: 'beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '前',
+        pinyin: 'qián',
+        english: 'front',
+        example: {
+          chinese: '在前面。',
+          pinyin: 'zài qián miàn.',
+          english: 'In front.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'b-time-basic',
+    title: 'Basic Time',
+    description: 'Learn how to tell time',
+    level: 'beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '小时',
+        pinyin: 'xiǎo shí',
+        english: 'hour',
+        example: {
+          chinese: '一个小时。',
+          pinyin: 'yī gè xiǎo shí.',
+          english: 'One hour.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'b-colors-basic',
+    title: 'More Colors',
+    description: 'Learn more colors',
+    level: 'beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '绿色',
+        pinyin: 'lǜ sè',
+        english: 'green',
+        example: {
+          chinese: '绿色的草。',
+          pinyin: 'lǜ sè de cǎo.',
+          english: 'Green grass.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'b-food-basic',
+    title: 'More Food',
+    description: 'Learn more food vocabulary',
+    level: 'beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '茶',
+        pinyin: 'chá',
+        english: 'tea',
+        example: {
+          chinese: '我要喝茶。',
+          pinyin: 'wǒ yào hē chá.',
+          english: 'I want to drink tea.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'b-animals-basic',
+    title: 'More Animals',
+    description: 'Learn more animal names',
+    level: 'beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '狗',
+        pinyin: 'gǒu',
+        english: 'dog',
+        example: {
+          chinese: '这是我的狗。',
+          pinyin: 'zhè shì wǒ de gǒu.',
+          english: 'This is my dog.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'b-classroom-basic',
+    title: 'More Classroom Objects',
+    description: 'Learn more classroom objects',
+    level: 'beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '笔',
+        pinyin: 'bǐ',
+        english: 'pen',
+        example: {
+          chinese: '这是一支笔。',
+          pinyin: 'zhè shì yī zhī bǐ.',
+          english: 'This is a pen.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'b-weather-advanced',
+    title: 'Advanced Weather Terms',
+    description: 'Learn more weather expressions',
+    level: 'beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '冷',
+        pinyin: 'lěng',
+        english: 'cold',
+        example: {
+          chinese: '今天很冷。',
+          pinyin: 'jīn tiān hěn lěng.',
+          english: 'It\'s cold today.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'b-body-basic',
+    title: 'More Body Parts',
+    description: 'Learn more body parts',
+    level: 'beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '手',
+        pinyin: 'shǒu',
+        english: 'hand',
+        example: {
+          chinese: '我的手很冷。',
+          pinyin: 'wǒ de shǒu hěn lěng.',
+          english: 'My hand is cold.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'b-places-basic',
+    title: 'More Places',
+    description: 'Learn more places',
+    level: 'beginner',
+    type: 'vocabulary',
+    content: [
+      {
+        chinese: '学校',
+        pinyin: 'xué xiào',
+        english: 'school',
+        example: {
+          chinese: '我在学校。',
+          pinyin: 'wǒ zài xué xiào.',
+          english: 'I am at school.',
+        },
+      },
+    ],
+  },
   // Intermediate Lessons
   {
     id: 'i-weather',
@@ -592,341 +1098,4 @@ export const lessons: Lesson[] = [
         english: 'waiter/waitress',
         example: {
           chinese: '服务员，请给我菜单。',
-          pinyin: 'fú wù yuán, qǐng gěi wǒ cài dān.',
-          english: 'Waiter, please give me the menu.',
-        },
-      },
-      {
-        chinese: '结账',
-        pinyin: 'jié zhàng',
-        english: 'to pay the bill',
-        example: {
-          chinese: '我们想结账。',
-          pinyin: 'wǒ men xiǎng jié zhàng.',
-          english: 'We would like to pay the bill.',
-        },
-      },
-    ],
-  },
-  {
-    id: 'i-office',
-    title: 'Office Life',
-    description: 'Common vocabulary used in the workplace',
-    level: 'intermediate',
-    type: 'vocabulary',
-    content: [
-      {
-        chinese: '会议',
-        pinyin: 'huì yì',
-        english: 'meeting',
-        example: {
-          chinese: '下午三点有个重要会议。',
-          pinyin: 'xià wǔ sān diǎn yǒu gè zhòng yào huì yì.',
-          english: 'There is an important meeting at 3 PM.',
-        },
-      },
-      {
-        chinese: '同事',
-        pinyin: 'tóng shì',
-        english: 'colleague',
-        example: {
-          chinese: '我的同事都很友好。',
-          pinyin: 'wǒ de tóng shì dōu hěn yǒu hǎo.',
-          english: 'My colleagues are all very friendly.',
-        },
-      },
-      {
-        chinese: '报告',
-        pinyin: 'bào gào',
-        english: 'report',
-        example: {
-          chinese: '我需要写一份报告。',
-          pinyin: 'wǒ xū yào xiě yī fèn bào gào.',
-          english: 'I need to write a report.',
-        },
-      },
-    ],
-  },
-  {
-    id: 'i-emotions',
-    title: 'Emotions and Feelings',
-    description: 'Express different emotions in Chinese',
-    level: 'intermediate',
-    type: 'vocabulary',
-    content: [
-      {
-        chinese: '紧张',
-        pinyin: 'jǐn zhāng',
-        english: 'nervous',
-        example: {
-          chinese: '考试前我很紧张。',
-          pinyin: 'kǎo shì qián wǒ hěn jǐn zhāng.',
-          english: 'I am nervous before the exam.',
-        },
-      },
-      {
-        chinese: '兴奋',
-        pinyin: 'xīng fèn',
-        english: 'excited',
-        example: {
-          chinese: '我对这次旅行很兴奋。',
-          pinyin: 'wǒ duì zhè cì lǚ xíng hěn xīng fèn.',
-          english: 'I am excited about this trip.',
-        },
-      },
-      {
-        chinese: '失望',
-        pinyin: 'shī wàng',
-        english: 'disappointed',
-        example: {
-          chinese: '听到这个消息我很失望。',
-          pinyin: 'tīng dào zhè gè xiāo xi wǒ hěn shī wàng.',
-          english: 'I am disappointed to hear this news.',
-        },
-      },
-    ],
-  },
-  {
-    id: 'i-health',
-    title: 'Health and Wellness',
-    description: 'Vocabulary for discussing health issues',
-    level: 'intermediate',
-    type: 'vocabulary',
-    content: [
-      {
-        chinese: '头痛',
-        pinyin: 'tóu tòng',
-        english: 'headache',
-        example: {
-          chinese: '我今天头痛，需要休息。',
-          pinyin: 'wǒ jīn tiān tóu tòng, xū yào xiū xi.',
-          english: 'I have a headache today, need to rest.',
-        },
-      },
-      {
-        chinese: '感冒',
-        pinyin: 'gǎn mào',
-        english: 'cold (illness)',
-        example: {
-          chinese: '我感冒了，要去看医生。',
-          pinyin: 'wǒ gǎn mào le, yào qù kàn yī shēng.',
-          english: 'I caught a cold, need to see a doctor.',
-        },
-      },
-      {
-        chinese: '锻炼',
-        pinyin: 'duàn liàn',
-        english: 'exercise',
-        example: {
-          chinese: '每天锻炼对身体好。',
-          pinyin: 'měi tiān duàn liàn duì shēn tǐ hǎo.',
-          english: 'Daily exercise is good for health.',
-        },
-      },
-    ],
-  },
-  // Advanced Lessons
-  {
-    id: 'a-idioms',
-    title: 'Common Chinese Idioms',
-    description: 'Learn some popular Chinese expressions',
-    level: 'advanced',
-    type: 'vocabulary',
-    content: [
-      {
-        chinese: '一举两得',
-        pinyin: 'yī jǔ liǎng dé',
-        english: 'kill two birds with one stone',
-        example: {
-          chinese: '学习中文可以认识新朋友，真是一举两得。',
-          pinyin: 'xué xí zhōng wén kě yǐ rèn shí xīn péng yǒu, zhēn shì yī jǔ liǎng dé.',
-          english: 'Learning Chinese allows you to make new friends, truly killing two birds with one stone.',
-        },
-      },
-      {
-        chinese: '入乡随俗',
-        pinyin: 'rù xiāng suí sú',
-        english: 'when in Rome, do as the Romans do',
-        example: {
-          chinese: '到了中国，你应该入乡随俗，尝试用筷子吃饭。',
-          pinyin: 'dào le zhōng guó, nǐ yīng gāi rù xiāng suí sú, cháng shì yòng kuài zi chī fàn.',
-          english: 'In China, you should do as the locals do and try to eat with chopsticks.',
-        },
-      },
-      {
-        chinese: '守株待兔',
-        pinyin: 'shǒu zhū dài tù',
-        english: 'to wait for opportunities without making efforts',
-        example: {
-          chinese: '不要守株待兔，要主动寻找机会。',
-          pinyin: 'bú yào shǒu zhū dài tù, yào zhǔ dòng xún zhǎo jī huì.',
-          english: 'Don\'t wait passively for opportunities, actively seek them.',
-        },
-      },
-      {
-        chinese: '画蛇添足',
-        pinyin: 'huà shé tiān zú',
-        english: 'to ruin something by adding unnecessary details',
-        example: {
-          chinese: '这些装饰太多了，有点画蛇添足。',
-          pinyin: 'zhè xiē zhuāng shì tài duō le, yǒu diǎn huà shé tiān zú.',
-          english: 'These decorations are too much, it\'s like adding legs to a snake.',
-        },
-      },
-    ],
-  },
-  {
-    id: 'a-business',
-    title: 'Business Chinese',
-    description: 'Professional vocabulary for business settings',
-    level: 'advanced',
-    type: 'vocabulary',
-    content: [
-      {
-        chinese: '谈判',
-        pinyin: 'tán pàn',
-        english: 'negotiation',
-        example: {
-          chinese: '这次谈判对公司很重要。',
-          pinyin: 'zhè cì tán pàn duì gōng sī hěn zhòng yào.',
-          english: 'This negotiation is very important for the company.',
-        },
-      },
-      {
-        chinese: '投资',
-        pinyin: 'tóu zī',
-        english: 'investment',
-        example: {
-          chinese: '我们需要寻找新的投资机会。',
-          pinyin: 'wǒ men xū yào xún zhǎo xīn de tóu zī jī huì.',
-          english: 'We need to look for new investment opportunities.',
-        },
-      },
-      {
-        chinese: '股东',
-        pinyin: 'gǔ dōng',
-        english: 'shareholder',
-        example: {
-          chinese: '下周有股东大会。',
-          pinyin: 'xià zhōu yǒu gǔ dōng dà huì.',
-          english: 'There\'s a shareholders\' meeting next week.',
-        },
-      },
-    ],
-  },
-  {
-    id: 'a-literature',
-    title: 'Literary Chinese',
-    description: 'Classical and literary expressions',
-    level: 'advanced',
-    type: 'vocabulary',
-    content: [
-      {
-        chinese: '风花雪月',
-        pinyin: 'fēng huā xuě yuè',
-        english: 'beautiful scenes of nature; romance',
-        example: {
-          chinese: '这首诗写的都是风花雪月。',
-          pinyin: 'zhè shǒu shī xiě de dōu shì fēng huā xuě yuè.',
-          english: 'This poem is all about romantic natural scenery.',
-        },
-      },
-      {
-        chinese: '青山绿水',
-        pinyin: 'qīng shān lǜ shuǐ',
-        english: 'beautiful mountains and rivers',
-        example: {
-          chinese: '这里的青山绿水真是美极了。',
-          pinyin: 'zhè lǐ de qīng shān lǜ shuǐ zhēn shi měi jí le.',
-          english: 'The mountains and waters here are incredibly beautiful.',
-        },
-      },
-    ],
-  },
-  {
-    id: 'a-technology',
-    title: 'Technology Terms',
-    description: 'Modern technology and digital vocabulary',
-    level: 'advanced',
-    type: 'vocabulary',
-    content: [
-      {
-        chinese: '人工智能',
-        pinyin: 'rén gōng zhì néng',
-        english: 'artificial intelligence',
-        example: {
-          chinese: '人工智能技术正在快速发展。',
-          pinyin: 'rén gōng zhì néng jì shù zhèng zài kuài sù fā zhǎn.',
-          english: 'Artificial intelligence technology is developing rapidly.',
-        },
-      },
-      {
-        chinese: '区块链',
-        pinyin: 'qū kuài liàn',
-        english: 'blockchain',
-        example: {
-          chinese: '区块链技术改变了金融行业。',
-          pinyin: 'qū kuài liàn jì shù gǎi biàn le jīn róng háng yè.',
-          english: 'Blockchain technology has transformed the financial industry.',
-        },
-      },
-      {
-        chinese: '云计算',
-        pinyin: 'yún jì suàn',
-        english: 'cloud computing',
-        example: {
-          chinese: '很多公司都在使用云计算服务。',
-          pinyin: 'hěn duō gōng sī dōu zài shǐ yòng yún jì suàn fú wù.',
-          english: 'Many companies are using cloud computing services.',
-        },
-      },
-    ],
-  },
-  {
-    id: 'a-academic',
-    title: 'Academic Chinese',
-    description: 'Vocabulary for academic and research contexts',
-    level: 'advanced',
-    type: 'vocabulary',
-    content: [
-      {
-        chinese: '论文',
-        pinyin: 'lùn wén',
-        english: 'thesis/dissertation',
-        example: {
-          chinese: '我正在写博士论文。',
-          pinyin: 'wǒ zhèng zài xiě bó shì lùn wén.',
-          english: 'I am writing my doctoral dissertation.',
-        },
-      },
-      {
-        chinese: '研究方法',
-        pinyin: 'yán jiū fāng fǎ',
-        english: 'research methodology',
-        example: {
-          chinese: '这个研究方法很创新。',
-          pinyin: 'zhè gè yán jiū fāng fǎ hěn chuàng xīn.',
-          english: 'This research methodology is very innovative.',
-        },
-      },
-      {
-        chinese: '分析',
-        pinyin: 'fēn xī',
-        english: 'analysis',
-        example: {
-          chinese: '数据分析显示了有趣的结果。',
-          pinyin: 'shù jù fēn xī xiǎn shì le yǒu qù de jié guǒ.',
-          english: 'The data analysis showed interesting results.',
-        },
-      },
-    ],
-  }
-];
-
-export const getLessonsByLevel = (level: string) => {
-  return lessons.filter(lesson => lesson.level === level);
-};
-
-export const getLessonById = (id: string) => {
-  return lessons.find(lesson => lesson.id === id);
-};
+          pinyin: 'fú wù yuán, qǐng gěi
