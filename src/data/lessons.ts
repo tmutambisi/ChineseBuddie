@@ -18,6 +18,11 @@ export interface Lesson {
   content: ChineseWord[];
 }
 
+// Helper function to get lessons by level
+export const getLessonsByLevel = (level: string) => {
+  return lessons.filter((lesson) => lesson.level === level);
+};
+
 export const lessons: Lesson[] = [
   // Absolute Beginner Lessons
   {
@@ -1095,7 +1100,4 @@ export const lessons: Lesson[] = [
       {
         chinese: '服务员',
         pinyin: 'fú wù yuán',
-        english: 'waiter/waitress',
-        example: {
-          chinese: '服务员，请给我菜单。',
-          pinyin: 'fú wù yuán, qǐng gěi
+        english: 'wait
