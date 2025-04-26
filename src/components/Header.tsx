@@ -32,9 +32,6 @@ const Header: React.FC<HeaderProps> = ({
         </div>
         {showSettings && (
           <div className="flex items-center space-x-2">
-            <Button variant="ghost" size="sm" onClick={togglePinyin}>
-              Toggle Pinyin
-            </Button>
             <Button variant="ghost" size="icon" onClick={() => navigate('/settings')}>
               <Settings className="h-5 w-5" />
             </Button>
