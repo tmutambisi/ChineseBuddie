@@ -1,4 +1,4 @@
-# Mandarin Journey Unlocked
+# Chinese Buddie
 
 A comprehensive Mandarin Chinese learning application with interactive lessons and exercises.
 
