@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Home, Book, LayoutGrid, Award } from 'lucide-react';
+import { Home, Book, LayoutGrid, Award, BookOpen } from 'lucide-react';
 import { useIsMobile } from '@/hooks/use-mobile';
 
 const BottomNavigation: React.FC = () => {
@@ -28,6 +27,15 @@ const BottomNavigation: React.FC = () => {
       >
         <Book className="h-6 w-6" />
         <span className="text-xs mt-1">Lessons</span>
+      </NavLink>
+      <NavLink 
+        to="/books" 
+        className={({ isActive }) => 
+          `flex flex-col items-center p-2 ${isActive ? 'text-china-red' : 'text-gray-500'}`
+        }
+      >
+        <BookOpen className="h-6 w-6" />
+        <span className="text-xs mt-1">Books</span>
       </NavLink>
       <NavLink 
         to="/characters" 

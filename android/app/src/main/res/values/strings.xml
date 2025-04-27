@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Mandarin Journey Unlocked</string>
+    <string name="title_activity_main">Mandarin Journey Unlocked</string>
+    <string name="package_name">com.mandarinjourney.app</string>
+    <string name="custom_url_scheme">com.mandarinjourney.app</string>
+</resources>

@@ -1,17 +1,21 @@
-
 import React from 'react';
 import { 
   Circle as CircleOne, 
   Circle as CircleTwo, 
   Circle as CircleThree, 
-  Circle as CircleFour 
+  Circle as CircleFour,
+  BookOpen
 } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import Header from '@/components/Header';
 import BottomNavigation from '@/components/BottomNavigation';
 import LevelCard from '@/components/LevelCard';
 import { Level } from '@/context/AppContext';
+import { Button } from '@/components/ui/button';
 
 const Index = () => {
+  const navigate = useNavigate();
+  
   const levels: {
     level: Level;
     title: string;
@@ -82,6 +86,24 @@ const Index = () => {
             Begin with the "Absolute Beginner" level to learn basic greetings and numbers in Chinese.
             Practice every day for the best results!
           </p>
+        </div>
+        
+        <div className="mt-8 p-4 border rounded-lg bg-white dark:bg-gray-800 shadow-sm">
+          <div className="flex items-center justify-between">
+            <div>
+              <h3 className="text-lg font-semibold mb-1">Reading Practice</h3>
+              <p className="text-gray-600 dark:text-gray-300">
+                Improve your Chinese with our collection of books at different difficulty levels.
+              </p>
+            </div>
+            <Button 
+              onClick={() => navigate('/books')}
+              className="flex items-center"
+            >
+              <BookOpen className="mr-2 h-4 w-4" />
+              Browse Books
+            </Button>
+          </div>
         </div>
       </main>
       

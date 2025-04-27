@@ -1,8 +1,6 @@
-
 import React, { useState } from 'react';
 import { ChineseWord } from '@/data/lessons';
 import { useApp } from '@/context/AppContext';
-import { Volume2 } from 'lucide-react';
 
 interface WordCardProps {
   word: ChineseWord;
@@ -17,9 +15,6 @@ const WordCard: React.FC<WordCardProps> = ({ word, showExample = false }) => {
     <div className="p-4 border rounded-lg bg-white dark:bg-gray-800 shadow-sm mb-4">
       <div className="flex justify-between items-center mb-2">
         <span className="chinese-character">{word.chinese}</span>
-        <button className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700">
-          <Volume2 className="h-5 w-5 text-gray-500" />
-        </button>
       </div>
       
       {showPinyin && (

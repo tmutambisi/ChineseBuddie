@@ -1,16 +1,28 @@
-
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'app.lovable.bf4c331c1a194f15a86c888db58837aa',
-  appName: 'mandarin-journey-unlocked',
+  appId: 'com.mandarinjourney.app',
+  appName: 'Mandarin Journey Unlocked',
   webDir: 'dist',
   server: {
-    url: 'https://bf4c331c-1a19-4f15-a86c-888db58837aa.lovableproject.com?forceHideBadge=true',
+    url: 'http://localhost:3000',
     cleartext: true,
   },
   plugins: {
     // Configure any Capacitor plugins here
+  },
+  android: {
+    buildOptions: {
+      keystorePath: undefined,
+      keystorePassword: undefined,
+      keystoreAlias: undefined,
+      keystoreAliasPassword: undefined,
+    }
+  },
+  ios: {
+    contentInset: 'always',
+    allowsLinkPreview: true,
+    scrollEnabled: true
   }
 };
 
