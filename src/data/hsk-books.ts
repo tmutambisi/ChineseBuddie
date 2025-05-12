@@ -53,6 +53,32 @@ export const hskBooks: Book[] = [
     downloadLink: 'https://drive.google.com/file/d/13t0n5k1GV2cz5wGULCwmS9Z3WP-Qw3v2/view?usp=sharing',
     //audiobookLink: 'https://drive.google.com/file/d/YOUR_HSK4_AUDIOBOOK_FILE_ID/view?usp=sharing',
     chapters: [] // No chapters needed as this is a downloadable book
+  },
+  {
+    id: 'hsk5-book',
+    title: 'HSK 5 Standard Course',
+    titleChinese: 'HSK 5 标准教程',
+    author: 'Hanban',
+    authorChinese: '汉办',
+    level: 'hsk5',
+    description: 'Official HSK 5 textbook covering vocabulary, grammar, and exercises for the HSK 5 exam.',
+    coverImage: '/coverhsk5.jpg',
+    downloadLink: 'https://drive.google.com/file/d/1B6FMuKmWH2YODZgxTAITiWRUskn-wjll/view?usp=drive_link', // TODO: Add real link
+    //audiobookLink: 
+    chapters: []
+  },
+  {
+    id: 'hsk6-book',
+    title: 'HSK 6 Standard Course',
+    titleChinese: 'HSK 6 标准教程',
+    author: 'Hanban',
+    authorChinese: '汉办',
+    level: 'hsk6',
+    description: 'Official HSK 6 textbook covering vocabulary, grammar, and exercises for the HSK 6 exam.',
+    coverImage: '/coverhsk6.jpg',
+    downloadLink: 'https://drive.google.com/file/d/1x7IFFnmwZpWQh_ZXS2PTU017ez0iiIN6/view?usp=drive_link', // TODO: Add real link
+    //audiobookLink: 
+    chapters: []
   }
 ];
 

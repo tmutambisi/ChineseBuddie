@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { hksBooks } from '../data/hks-books';
+import { hskBooks } from '../data/hsk-books';
 import Header from '@/components/Header';
 import BottomNavigation from '@/components/BottomNavigation';
 
@@ -11,7 +11,7 @@ const HKSBooks: React.FC = () => {
       
       <main className="flex-1 container px-4 py-6 pb-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {hksBooks.map((book) => (
+          {hskBooks.map((book) => (
             <Link
               key={book.id}
               to={`/book/${book.id}`}
@@ -23,6 +23,13 @@ const HKSBooks: React.FC = () => {
                     src={book.coverImage} 
                     alt={book.title} 
                     className="w-full h-full object-cover"
+                    onError={e => {
+                      e.currentTarget.style.display = 'none';
+                      const fallback = document.createElement('div');
+                      fallback.className = 'w-full h-full flex items-center justify-center bg-gray-300 dark:bg-gray-700';
+                      fallback.innerHTML = `<span class=\"text-4xl font-chinese\">${book.titleChinese}</span>`;
+                      e.currentTarget.parentNode.appendChild(fallback);
+                    }}
                   />
                 ) : (
                   <div className="w-full h-full flex items-center justify-center">

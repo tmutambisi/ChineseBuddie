@@ -12,6 +12,8 @@ import BottomNavigation from '@/components/BottomNavigation';
 import LevelCard from '@/components/LevelCard';
 import { Level } from '@/context/AppContext';
 import { Button } from '@/components/ui/button';
+import FeedbackForm from '@/components/FeedbackForm';
+import { hskBooks } from '@/data/hsk-books';
 
 const Index = () => {
   const navigate = useNavigate();
@@ -104,6 +106,46 @@ const Index = () => {
               Browse Books
             </Button>
           </div>
+        </div>
+
+        {/* HSK Book Covers Section */}
+        <div className="mt-8 p-4 border rounded-lg bg-white dark:bg-gray-800 shadow-sm">
+          <h3 className="text-lg font-semibold mb-4">HSK Standard Course Books</h3>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+            {hskBooks.map((book) => (
+              <div
+                key={book.id}
+                className="flex flex-col items-center cursor-pointer transform transition-transform hover:scale-105"
+                onClick={() => navigate(`/book/${book.id}`)}
+              >
+                <div className="relative w-full aspect-[3/4] bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden shadow-md mb-2">
+                  <img
+                    src={book.coverImage}
+                    alt={book.title}
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-10 transition-opacity duration-200" />
+                </div>
+                <div className="text-center">
+                  <span className="text-sm font-medium text-gray-700 dark:text-gray-200 block">
+                    {book.title}
+                  </span>
+                  <span className="text-xs text-gray-500 dark:text-gray-400 block">
+                    {book.titleChinese}
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Feedback Section */}
+        <div className="mt-8 p-4 border rounded-lg bg-white dark:bg-gray-800 shadow-sm">
+          <h3 className="text-lg font-semibold mb-2">We value your feedback!</h3>
+          <p className="text-gray-600 dark:text-gray-300 mb-4">
+            Let us know your thoughts, suggestions, or issues. Your feedback helps us improve ChineseBuddie.
+          </p>
+          <FeedbackForm />
         </div>
       </main>
       

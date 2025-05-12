@@ -5,7 +5,7 @@ import BottomNavigation from '@/components/BottomNavigation';
 import { books, getBooksByLevel } from '@/data/books';
 import { Level } from '@/context/AppContext';
 import { Button } from '@/components/ui/button';
-import { Download, Headphones } from 'lucide-react';
+import { Download, Headphones, BookOpen } from 'lucide-react';
 
 const Books = () => {
   const navigate = useNavigate();
@@ -30,6 +30,30 @@ const Books = () => {
       <Header title="Books" showBack={false} showSettings={true} />
       
       <main className="flex-1 container px-4 py-6 pb-24">
+        {/* Welcome Section */}
+        <section className="mb-12 text-center">
+          <div className="max-w-3xl mx-auto">
+            <BookOpen className="w-16 h-16 mx-auto mb-4 text-blue-600 dark:text-blue-400" />
+            <h1 className="text-3xl font-bold mb-4 text-gray-900 dark:text-gray-100">
+              Welcome to ChineseBuddie Library
+            </h1>
+            <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
+              Your journey to mastering Chinese starts here. Explore our carefully curated collection of textbooks, 
+              from HSK standard courses to supplementary learning materials.
+            </p>
+            <div className="flex justify-center gap-4">
+              <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
+                <Download className="w-4 h-4" />
+                <span>Downloadable Content</span>
+              </div>
+              <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
+                <Headphones className="w-4 h-4" />
+                <span>Audio Materials</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <div className="space-y-8">
           {/* HSK Books */}
           <section>

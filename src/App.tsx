@@ -19,6 +19,7 @@ import BookDetail from "./pages/BookDetail";
 import ChapterDetail from "./pages/ChapterDetail";
 import NotFound from "./pages/NotFound";
 import HKSBooks from "./components/HKSBooks";
+import Feedback from "./pages/Feedback";
 
 const queryClient = new QueryClient();
 
@@ -31,17 +32,17 @@ const App = () => (
         <BrowserRouter>
           <MobileLayout>
             <Routes>
-              <Route path="/" element={<Index />} />
+              <Route path="/" element={<Books />} />
               <Route path="/lessons" element={<Lessons />} />
               <Route path="/lesson/:id" element={<LessonDetail />} />
               <Route path="/exercises/:id" element={<Exercises />} />
               <Route path="/characters" element={<Characters />} />
               <Route path="/progress" element={<Progress />} />
               <Route path="/settings" element={<Settings />} />
-              <Route path="/books" element={<Books />} />
               <Route path="/hks-books" element={<HKSBooks />} />
               <Route path="/book/:id" element={<BookDetail />} />
               <Route path="/book/:bookId/chapter/:chapterId" element={<ChapterDetail />} />
+              <Route path="/feedback" element={<Feedback />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </MobileLayout>
